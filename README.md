@@ -8,7 +8,7 @@
   
   You first need to clone the test-assignment repository on your system using git clone command.
   
-  git clone
+  ```git clone https://github.com/daminiraj/test-assignment.git```
   
   After this you need to import this project into pycharm IDE and run it.
   
