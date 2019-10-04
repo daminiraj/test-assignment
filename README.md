@@ -10,19 +10,19 @@
   
   git clone
   
-  After this you need to import this prohect into pycharm IDE and run it.
+  After this you need to import this project into pycharm IDE and run it.
   
   ## How to run
   
   Go to console in your pycharm IDE and run:
   
-  python scrmabledstrings.py  --dictionary dictionary.txt  --input input.txt
+  ```python scrmabledstrings.py  --dictionary dictionary.txt  --input input.txt```
   
   ## Running the tests
   
   Run the tests in file test/scrmabledstrings.py and run
   
-  pytest -v
+  ```pytest -v```
   
   There are two tests which check if all the anagrams of a particular dictionary words are created and as well as if the output is what we 
   are expecting.
