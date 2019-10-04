@@ -21,8 +21,6 @@ def find_length(lines):
     for element in lines:
         length_of_all_words += len(element)
         if len(element) < 2 or len(element) > 105 or length_of_all_words > 105:
-            print(len(element))
-            print(length_of_all_words)
             logging.error("Exiting the program as dictionary words do not comply with prescribed length.")
             sys.exit(1)
 
